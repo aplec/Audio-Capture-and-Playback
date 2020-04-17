@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		5A2A52992449682900638293 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2A52982449682900638293 /* AppDelegate.swift */; };
 		5A2A529B2449682900638293 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2A529A2449682900638293 /* SceneDelegate.swift */; };
-		5A2A529D2449682900638293 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2A529C2449682900638293 /* ViewController.swift */; };
-		5A2A52A02449682900638293 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A2A529E2449682900638293 /* Main.storyboard */; };
 		5A2A52A32449682900638293 /* Audio_Capture_and_Playback.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5A2A52A12449682900638293 /* Audio_Capture_and_Playback.xcdatamodeld */; };
-		5A2A52A52449682B00638293 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A2A52A42449682B00638293 /* Assets.xcassets */; };
 		5A2A52A82449682B00638293 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A2A52A62449682B00638293 /* LaunchScreen.storyboard */; };
 		5A2A52B32449682B00638293 /* Audio_Capture_and_PlaybackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2A52B22449682B00638293 /* Audio_Capture_and_PlaybackTests.swift */; };
 		5A2A52BE2449682C00638293 /* Audio_Capture_and_PlaybackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2A52BD2449682C00638293 /* Audio_Capture_and_PlaybackUITests.swift */; };
+		5A2A52CC2449693400638293 /* AudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2A52CB2449693400638293 /* AudioViewController.swift */; };
+		5A2A52CE2449694300638293 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A2A52CD2449694300638293 /* Main.storyboard */; };
+		5A2A52D02449751100638293 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A2A52CF2449751100638293 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,10 +39,7 @@
 		5A2A52952449682900638293 /* Audio Capture and Playback.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Audio Capture and Playback.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A2A52982449682900638293 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A2A529A2449682900638293 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5A2A529C2449682900638293 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5A2A529F2449682900638293 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5A2A52A22449682900638293 /* Audio_Capture_and_Playback.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Audio_Capture_and_Playback.xcdatamodel; sourceTree = "<group>"; };
-		5A2A52A42449682B00638293 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A2A52A72449682B00638293 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A2A52A92449682B00638293 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A2A52AE2449682B00638293 /* Audio Capture and PlaybackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Audio Capture and PlaybackTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +48,9 @@
 		5A2A52B92449682C00638293 /* Audio Capture and PlaybackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Audio Capture and PlaybackUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A2A52BD2449682C00638293 /* Audio_Capture_and_PlaybackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audio_Capture_and_PlaybackUITests.swift; sourceTree = "<group>"; };
 		5A2A52BF2449682C00638293 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A2A52CB2449693400638293 /* AudioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioViewController.swift; sourceTree = "<group>"; };
+		5A2A52CD2449694300638293 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		5A2A52CF2449751100638293 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,11 +102,11 @@
 			isa = PBXGroup;
 			children = (
 				5A2A52982449682900638293 /* AppDelegate.swift */,
+				5A2A52CB2449693400638293 /* AudioViewController.swift */,
 				5A2A529A2449682900638293 /* SceneDelegate.swift */,
-				5A2A529C2449682900638293 /* ViewController.swift */,
-				5A2A529E2449682900638293 /* Main.storyboard */,
-				5A2A52A42449682B00638293 /* Assets.xcassets */,
+				5A2A52CD2449694300638293 /* Main.storyboard */,
 				5A2A52A62449682B00638293 /* LaunchScreen.storyboard */,
+				5A2A52CF2449751100638293 /* Assets.xcassets */,
 				5A2A52A92449682B00638293 /* Info.plist */,
 				5A2A52A12449682900638293 /* Audio_Capture_and_Playback.xcdatamodeld */,
 			);
@@ -235,9 +235,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A2A52CE2449694300638293 /* Main.storyboard in Resources */,
+				5A2A52D02449751100638293 /* Assets.xcassets in Resources */,
 				5A2A52A82449682B00638293 /* LaunchScreen.storyboard in Resources */,
-				5A2A52A52449682B00638293 /* Assets.xcassets in Resources */,
-				5A2A52A02449682900638293 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A2A52A32449682900638293 /* Audio_Capture_and_Playback.xcdatamodeld in Sources */,
-				5A2A529D2449682900638293 /* ViewController.swift in Sources */,
+				5A2A52CC2449693400638293 /* AudioViewController.swift in Sources */,
 				5A2A52992449682900638293 /* AppDelegate.swift in Sources */,
 				5A2A529B2449682900638293 /* SceneDelegate.swift in Sources */,
 			);
@@ -301,14 +301,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5A2A529E2449682900638293 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5A2A529F2449682900638293 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5A2A52A62449682B00638293 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
